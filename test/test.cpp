@@ -145,5 +145,14 @@ int main()
 	cout << "Ho va ten:" << CTT3.danhsachsv->ho << " " << CTT3.danhsachsv->ten << endl;
 	cout << "So can cuoc cong dan:" << CTT3.danhsachsv->cccd << endl;
 	cout << "Ngay sinh:" << CTT3.danhsachsv->ngay << "/" << CTT3.danhsachsv->thang << "/" << CTT3.danhsachsv->nam << endl;
+	Lop CTT2;
+	CTT2.danhsachsv = nullptr;
+	taosv(STT, MSSV, ten, ho, gender, ngay, thang, nam, cccd);
+	themsvvaolop(CTT2, STT, MSSV, ten, ho, gender, ngay, thang, nam, cccd);
+	cout << "Thong tin hoc sinh trong lop CTT2:" << endl;
+	cout << "So thu tu:" << CTT2.danhsachsv->stt << endl;
+	cout << "Ho va ten:" << CTT2.danhsachsv->ho << " " << CTT2.danhsachsv->ten << endl;
+	cout << "So can cuoc cong dan:" << CTT2.danhsachsv->cccd << endl;
+	cout << "Ngay sinh:" << CTT2.danhsachsv->ngay << "/" << CTT2.danhsachsv->thang << "/" << CTT2.danhsachsv->nam << endl;
 	return 0;
 }

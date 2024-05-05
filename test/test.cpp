@@ -154,5 +154,6 @@ int main()
 	cout << "Ho va ten:" << CTT2.danhsachsv->ho << " " << CTT2.danhsachsv->ten << endl;
 	cout << "So can cuoc cong dan:" << CTT2.danhsachsv->cccd << endl;
 	cout << "Ngay sinh:" << CTT2.danhsachsv->ngay << "/" << CTT2.danhsachsv->thang << "/" << CTT2.danhsachsv->nam << endl;
+	cout << "hello wolrd";
 	return 0;
 }
